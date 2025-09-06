@@ -33,5 +33,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://uncleluo/mous:latest docker://sun8686/ttshare:latest
+        skopeo copy docker://uncleluogithub/sapcf:latest docker://sun8686/ttshare:latest
  
